@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header{
+    background-color: black;
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+body{
+    margin: 0;
+
+}
+
+
+.logo{
+    width: 20%;
+    height: 20%;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    left: 115px;
+    top: 20px;
+    font-family: sans-serif;
+}
+
+
+ul{
+    color:white;
+    list-style-type: none;
+    display: flex;
+    padding: 15px;
+    position: relative;
+    right: 120px;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+
+li{
+    padding: 10px;
+    font-size: 15px;
+}
+
+
+.nav-links{
+    position: absolute;
+    left: 1010px;
+    position: relative;
+    left: 600px;
+}
+
+
+.sigin-button{
+    padding: 10px 10px;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.button{
+    padding: 10px;
+    position: relative;
+    left: 580px;
+}
+
+
+/* Main body */
+
+.main-body{
+    background-color: black;
+    width: 100%;
+    height: 820px;
+}
+
+
+.left-section-text{
+    width: 50%;
+    float: left;
+    color: white;
+}
+
+
+.right-section-pic{
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+
+.go-text{
+    font-size: 52px;
+    font-weight: bold;
+    margin-left: 178PX;
+    margin-top: 250px;
+    font-family: sans-serif;
+}
+
+
+.request{
+    color: white;
+    margin-left: 178PX;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+
+.box{
+    margin-left: 5PX;
+    margin-top: 10px;
+
+}
+
+
+.enter-location{
+    margin-left: 170PX;
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    width: 380px;
+    text-align: left;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+
+.pic-1-right{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    margin-top: 60px;
+}
+
+
+.see-button{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    margin-left: 170PX;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+
+/* Main body 2 */
+
+.main-body-2{
+    background-color:white;
+    width: 100%;
+    height: 700px;
+}
+
+
+.left-section-pic-2{
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+
+.pic-2-left{
+    width: 100%;
+    height: 80%;
+    margin-left: 180px;
+    margin-top: 65px;
+}
+
+
+.right-section-text-2{
+    width: 50%;
+    float: right;
+    color: black;
+    
+
+}
+.right-text-2{
+    margin-left: 130px;
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.right-text-2-down{
+    margin-left: 130px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+.get-right-button-1{
+    background-color: black;
+    color: white;
+    margin-left: 130px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+.account{
+    color: black;
+    padding-left: 25px;
+}
+
+
+/* Main body 3 */
+
+.main-body-3{
+    background-color:white;
+    width: 100%;
+    height: 700px;
+}
+
+
+.right-section-pic-3{
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+
+.pic-3-right{
+    width: 100%;
+    height: 80%;
+    margin-left: 16px;
+    margin-top: 65px;
+}
+
+
+.left-section-text-3{
+    width: 50%;
+    float: left;
+    color: black;
+
+}
+.left-text-3{
+    margin-left: 180px;
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.left-text-3-down{
+    margin-left: 180px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+.get-left-button-2{
+    background-color: black;
+    color: white;
+    margin-left: 180px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+.check-out{
+    color: black;
+    padding-left: 25px;
+}
+
+
+/* Main body 4 */
+
+.main-body-4{
+    background-color:white;
+    width: 100%;
+    height: 700px;
+}
+
+
+.left-section-pic-4{
+    width: 560px;
+    height: 700px;
+    float: left;
+}
+
+
+.pic-4-left{
+    width: 100%;
+    height: 80%;
+    margin-left: 180px;
+    margin-top: 65px;
+}
+
+
+.right-section-text-4{
+    width: 50%;
+    float: right;
+    margin-top: 50px;
+    color: black;
+
+}
+.right-text-4{
+    margin-left: 130px;
+    margin-top: 150px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+
+.right-text-4-down{
+    margin-left: 130px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+
+.get-right-button-3{
+    background-color: black;
+    color: white;
+    margin-left: 130px;
+    margin-top: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+
+
+.apps{
+    height: 100px;
+    background-color: rgb(249, 249, 249);
+
+}
+.apps h2{
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-left: 175px;
+    padding-top: 40px;
+}
+
+
+/* Main body qr */
+
+.main-body-qr{
+    height: 250px;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+}
+
+
+
+.qr-div-1{
+    width: 580px;
+    height: 180px;
+    background-color: white;
+    margin-left: 170px;
+    display: flex;
+    padding: 18px 18px 18px 18px;
+
+}
+
+
+
+.qr-div-2{
+    background-color: white;
+    width: 580px;
+    height: 180px;
+    margin-left: 30px;
+    display: flex;
+    padding: 18px 18px 18px 18px;
+    
+}
+
+
+.download-left{
+    margin-left: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.qr-div-1 i{
+    position: relative;
+    left: 80px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+
+
+.download-right{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+
+.qr-div-2 i{
+    position: relative;
+    left: 45px;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+
+/* Footer */
+
+.footer-logo-body{
+    height: 270px;
+    background-color: black;
+}
+
+
+.footer-logo-body h3{
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    margin-left: 175px;
+    padding-top: 40px;
+}
+
+
+.Visit{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    margin-left: 175px;
+    padding-top: 40px;
+}
+
+
+.footer-menu-body{
+    width: 100%;
+    height: 380px;
+    background-color:black;
+}
+
+
+.footer-menus{
+   display: flex;
+   margin-left: 175px;
+   color: white;
+}
+
+
+.footer-row-1{
+    font-size: 15px;
+    font-family: sans-serif;
+
+}
+
+
+.footer-row-2{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 150px;
+}
+
+
+.footer-row-3{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 150px;
+
+}
+
+
+.footer-row-4{
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 150px;
+
+}
+
+
+.footer-social-media-body{
+    height: 120px;
+    background-color: black;
+}
+
+
+.footer-social-media-logos img{
+  /* display: flex; */
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 100px;
+  right: 50px;
+  margin-left: 80px;
+  /* margin-top: 40px; */
+
+}
+
+
+.footer-eng{
+    color: white;
+    font-family: sans-serif;
+    word-spacing: 50px;
+    margin-left: 1120px;
+    position: relative;
+    top: 22px;
+   
+}
+
+
+.footer-download-body{
+    height: 100px;
+    background-color: black;
+}
+
+
+.footer-download img{
+    width: 120px;
+    position: relative;
+    left: 175px;
+    /* margin-left: 5px; */
+
+}
+
+
+.footer-last-body{
+    background-color: black;
+    height:150px;
+}
+
+
+.uber-year{
+    margin-left: 175px;
+    color: rgb(146, 145, 145);
+    position: relative;
+    top: 60px;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+
+
+.footer-right-menu{
+   margin-left: 750px;
+   word-spacing: 20px;
+}
+
+
